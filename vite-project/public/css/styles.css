@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: "sidebar main";
+  min-height: 100vh;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #b4cccc;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #5c948b;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Personaliza los colores según tu paleta */
